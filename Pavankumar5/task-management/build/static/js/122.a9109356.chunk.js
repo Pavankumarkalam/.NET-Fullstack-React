@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunktask_management=self.webpackChunktask_management||[]).push([[122],{122:(e,s,a)=>{a.r(s),a.d(s,{default:()=>i});a(43);var n=a(579);const i=()=>(0,n.jsxs)("div",{className:"container profile mt-5",children:[(0,n.jsx)("h2",{children:"Profile Page"}),(0,n.jsx)("p",{children:"User-specific information goes here."})]})}}]);
+//# sourceMappingURL=122.a9109356.chunk.js.map

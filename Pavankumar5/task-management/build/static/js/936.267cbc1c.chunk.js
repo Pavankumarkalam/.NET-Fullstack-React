@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunktask_management=self.webpackChunktask_management||[]).push([[936],{936:(e,a,n)=>{n.r(a),n.d(a,{default:()=>t});n(43);var s=n(579);const t=()=>(0,s.jsx)("div",{className:"container home mt-5",children:(0,s.jsx)("h1",{children:"Welcome to the Task Management App"})})}}]);
+//# sourceMappingURL=936.267cbc1c.chunk.js.map

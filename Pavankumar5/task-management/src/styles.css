@@ -1,0 +1,157 @@
+
+
+/* Global Resets and Body Styles */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 15px;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 1rem;
+  }
+  .navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff9900; /* Amazon-inspired orange */
+  }
+  .navbar ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  .navbar a {
+    text-decoration: none;
+    color: #333;
+  }
+  .navbar a.active {
+    font-weight: bold;
+  }
+  
+  /* Button Styles */
+  .btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .btn-primary {
+    background-color: #ff9900;
+    color: #fff;
+  }
+  .btn-danger {
+    background-color: #d9534f;
+    color: #fff;
+  }
+  
+  /* Home Page */
+  .home h1 {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  /* Login Page */
+  .login {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  .login h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .login label {
+    font-weight: bold;
+  }
+  .login input.form-control {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .login button.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff9900;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  /* Dashboard Page */
+  .dashboard {
+    padding: 20px;
+  }
+  .dashboard h2 {
+    margin-bottom: 20px;
+  }
+  .dashboard .input-group {
+    margin-bottom: 20px;
+    display: flex;
+  }
+  .dashboard .form-control {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .dashboard .btn {
+    margin-left: 10px;
+  }
+  
+  /* Task List and Task Item */
+  .task-list {
+    margin-top: 20px;
+  }
+  .task-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  .task-item p {
+    margin: 0;
+  }
+  
+  /* Profile Page */
+  .profile {
+    padding: 20px;
+  }
+  
+  /* Additional Utility Classes if needed */
+  .text-center {
+    text-align: center;
+  }
+  .mt-5 {
+    margin-top: 3rem;
+  }
+  
