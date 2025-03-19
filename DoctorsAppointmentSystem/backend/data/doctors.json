@@ -1,0 +1,16 @@
+[
+    {
+    "id": 1,
+    "name": "Dr. Aditi Sharma",
+    "specialty": "Cardiologist",
+    "availableSlots": ["10:00 AM", "12:30 PM", "3:00 PM"]
+    },
+    {
+    "id": 2,
+    "name": "Dr. Rajesh Kapoor",
+    "specialty": "Dermatologist",
+    "availableSlots": ["9:00 AM", "11:30 AM", "2:30 PM"]
+    }
+    
+]
+    
