@@ -1,0 +1,53 @@
+/* src/styles/global.css */
+
+/* Ensure the body takes the full viewport height */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    min-height: 100vh;
+  }
+  
+  /* Light theme styles */
+  body.light {
+    /* These might be redundant if using inline styles but help for consistency */
+    background-color: #f9f9f9;
+    color: #000;
+  }
+  
+  /* Dark theme styles */
+  body.dark {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .app-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: inherit;
+  }
+  
+  body.light input,
+  body.light button {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+  }
+  
+  body.dark input,
+  body.dark button {
+    background-color: #555;
+    color: #fff;
+    border: 1px solid #777;
+  }
+  
+  input, button {
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
